@@ -26,7 +26,8 @@ export default function Game({ resposta,
     setWrong,
     lifePoint, setLifePoint,
     win, setWin,
-    points, setPoints
+    points, setPoints,
+    generateRandomNumber
 }) {
     const dicasSize = quiz[0].dicas;
     const [answers, setAnswers] = useState('');
@@ -53,6 +54,9 @@ export default function Game({ resposta,
             setRight(true);
             setAbilityBtn(true)
             setStartGame(true);
+            setTimeout(() => {
+                generateRandomNumber(quiz)
+            }, 1500)
         } else {
             setLifePoint(lifePoint - 1)
             setWrong("Parece que sua resposta não está certa!");

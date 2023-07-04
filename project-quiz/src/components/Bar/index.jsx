@@ -5,6 +5,7 @@ import './style.css';
 import life from '../../assets/life.png';
 import point from '../../assets/point.png';
 import logo from '../../assets/interrogacao.png';
+import reload from '../../assets/reload.png'
 import quiz from '../../../tips';
 
 export default function Bar({ setStartGame, startGame, generateRandomNumber, abilityBtn, setEndGame, endGame, lifePoint, points, setWin, win }) {
@@ -22,16 +23,15 @@ export default function Bar({ setStartGame, startGame, generateRandomNumber, abi
         <div className='btn'>
 
           <button
-            className={`btnStart ${!startGame || abilityBtn || win ? '' : 'gray'}`}
+            className={`btnStart`}
             onClick={() => {
               generateRandomNumber(quiz);
               setStartGame(true);
               setEndGame(false)
               setWin(false)
             }}
-            disabled={!startGame || abilityBtn || win ? false : true}
           >
-            {!startGame || !abilityBtn || !win ?  'Start' : 'Next'}
+            {startGame ? <img className='realodBtn' src={reload} alt="reload icon"/> : 'Start' }
           </button> 
         </div>
       </div>

@@ -3,16 +3,16 @@ const quiz = [
       resposta: "Homem aranha",
       tipo: "Pessoa",
       dicas: [
-          "Ele tem habilidades aracnídeas.",
-          "Seu nome civil é Peter Parker.",
-          "Ele é conhecido por lançar teias.",
-          "É um super-herói da Marvel.",
-          "Seu uniforme é predominantemente vermelho e azul.",
-          "Ele apareceu pela primeira vez em quadrinhos em 1962.",
-          "Sua tia se chama May Parker.",
-          "Seu melhor amigo é o Homem de Ferro.",
-          "Ele tem uma franquia de filmes própria.",
-          "É conhecido como o Cabeça de Teia."
+          "Tenho habilidades aracnídeas.",
+          "Meu sobrenome é Parker.",
+          "Sou conhecido por lançar teias.",
+          "Sou um super-herói da Marvel.",
+          "Meu uniforme é predominantemente vermelho e azul.",
+          "Apareci pela primeira vez em quadrinhos em 1962.",
+          "Minha tia se chama May.",
+          "Meu melhor amigo é o Homem de Ferro.",
+          "Tenho uma franquia de filmes própria.",
+          "Sou conhecido como o Cabeça de Teia."
       ]
   },
   {
@@ -20,16 +20,16 @@ const quiz = [
       resposta: "Mona Lisa",
       tipo: "Obra de Arte",
       dicas: [
-          "Foi pintada por um famoso artista renascentista.",
-          "A figura retratada é uma mulher.",
-          "É conhecida por seu sorriso enigmático.",
-          "A pintura é exposta no Museu do Louvre, em Paris.",
-          "Foi concluída no início do século XVI.",
-          "É considerada uma das obras mais famosas do mundo.",
+          "Fui pintada por um famoso artista renascentista.",
+          "Retrato a figura de uma mulher.",
+          "Sou conhecida por meu sorriso enigmático.",
+          "A minha pintura é exposta no Museu do Louvre, em Paris.",
+          "Fui concluída no início do século XVI.",
+          "Sou considerada uma das obras mais famosas do mundo.",
           "O nome da modelo é desconhecido.",
           "A pintura é conhecida como 'La Gioconda' em italiano.",
-          "Leonardo da Vinci é o autor da obra.",
-          "Foi pintada com tinta a óleo."
+          "Leonardo da Vinci é o meu criador.",
+          "Fui pintada com tinta a óleo."
       ]
   },
   {
@@ -44,7 +44,7 @@ const quiz = [
           "Foi inaugurada em 1889.",
           "É um dos pontos turísticos mais visitados do mundo.",
           "Tem aproximadamente 330 metros de altura.",
-          "Leva o nome do engenheiro Gustave Eiffel.",
+          "Levo o nome do meu criador",
           "Foi inicialmente criticada por alguns como sendo feia."
       ]
   },
@@ -70,32 +70,32 @@ const quiz = [
       resposta: "Piano",
       tipo: "Coisa (Objeto)",
       dicas: [
-          "É um instrumento musical de cordas.",
-          "Possui teclas brancas e pretas.",
-          "É tocado pressionando as teclas com os dedos.",
-          "É comumente utilizado em música clássica.",
-          "Possui cordas que são percutidas por martelos.",
-          "Foi inventado no século XVIII.",
-          "É conhecido por sua ampla faixa de notas.",
-          "Pode ser um piano de cauda ou de armário.",
-          "Um dos compositores famosos que o tocava é Beethoven.",
-          "O piano moderno tem cerca de 88 teclas."
+          "Sou um instrumento musical de cordas.",
+          "Possuo teclas brancas e pretas.",
+          "Sou tocado pressionando as teclas com os dedos.",
+          "Sou comumente utilizado em música clássica.",
+          "Possuo cordas que são percutidas por martelos.",
+          "Fui inventado no século XVIII.",
+          "Sou conhecido por sua ampla faixa de notas.",
+          "Posso ter cauda.",
+          "Um dos compositores famosos que me tocava era Beethoven.",
+          "Tenho cerca de 88 teclas."
       ]
   },
   {
       resposta: "Albert Einstein",
       tipo: "Pessoa",
       dicas: [
-          "Foi um famoso cientista do século XX.",
-          "É conhecido por sua teoria da relatividade.",
-          "Ganhou o Prêmio Nobel de Física em 1921.",
-          "Nasceu em Ulm, na Alemanha.",
-          "Era conhecido por seu visual com cabelos despenteados.",
-          "Trabalhou no desenvolvimento da bomba atômica durante a Segunda Guerra Mundial.",
-          "Desenvolveu a famosa equação E=mc².",
-          "Era um defensor da paz e do desarmamento nuclear.",
-          "Ensinou na Universidade de Princeton, nos Estados Unidos.",
-          "Faleceu em 1955, aos 76 anos de idade."
+          "Fui um famoso cientista do século XX.",
+          "Sou conhecido por sua teoria da relatividade.",
+          "Ganhei o Prêmio Nobel de Física em 1921.",
+          "Nasci em Ulm, na Alemanha.",
+          "Sou conhecido por seu visual com cabelos despenteados.",
+          "Trabalhei no desenvolvimento da bomba atômica durante a Segunda Guerra Mundial.",
+          "Desenvolvi a famosa equação E=mc².",
+          "Sou um defensor da paz e do desarmamento nuclear.",
+          "Ensinei na Universidade de Princeton, nos Estados Unidos.",
+          "Faleci em 1955, aos 76 anos de idade."
       ]
   },
   {
@@ -103,16 +103,16 @@ const quiz = [
       resposta: "Pirâmides de Gizé",
       tipo: "Lugar",
       dicas: [
-          "São estruturas antigas localizadas no Egito.",
-          "Foram construídas como túmulos para faraós.",
-          "Estão localizadas perto da cidade do Cairo.",
-          "São conhecidas como uma das Sete Maravilhas do Mundo Antigo.",
-          "A maior delas é a Pirâmide de Quéops.",
-          "Foram construídas há mais de 4.500 anos.",
-          "Acredita-se que tenham sido construídas por milhares de trabalhadores.",
-          "Foram construídas com grandes blocos de pedra calcária.",
-          "As pirâmides são alinhadas com as estrelas.",
-          "As pirâmides fazem parte de um complexo funerário."
+          "Somos estruturas antigas localizadas no Egito.",
+          "Fomos construídas como túmulos para faraós.",
+          "Estamos localizadas perto da cidade do Cairo.",
+          "Somos conhecidas como uma das Sete Maravilhas do Mundo Antigo.",
+          "A maior de mim é a Pirâmide de Quéops.",
+          "Fomos construídas há mais de 4.500 anos.",
+          "Acredita-se que fomos construídas por milhares de trabalhadores.",
+          "Fomos construídas com grandes blocos de pedra calcária.",
+          "Somos alinhadas com as estrelas.",
+          "Fazemos parte de um complexo funerário."
       ]
   },
   {
@@ -120,33 +120,33 @@ const quiz = [
       resposta: "1492",
       tipo: "Ano",
       dicas: [
-          "É um ano do século XV.",
-          "Ficou famoso devido à descoberta de um novo continente.",
+          "Sou um ano do século XV.",
+          "Fiquei famoso devido à descoberta de um novo continente.",
           "Cristóvão Colombo chegou a uma nova terra neste ano.",
           "Marca o início da colonização europeia das Américas.",
           "Foi financiado pela Coroa Espanhola.",
           "Colombo fez sua primeira viagem ao Novo Mundo.",
-          "Acreditava estar chegando às Índias, mas descobriu a América.",
-          "É considerado um marco na história da exploração.",
-          "A viagem de Colombo foi feita com três navios: Santa Maria, Pinta e Niña.",
-          "A descoberta de Colombo levou à expansão do Império Espanhol."
+          "Nesse ano acreditava-se estar chegando às Índias, mas descobriu a América.",
+          "É um ano considerado um marco na história da exploração.",
+          "A viagem de Colombo foi feita com três navios: Santa Maria, Pinta e Niña, neste ano.",
+          "Nesse ano a descoberta de Colombo levou à expansão do Império Espanhol."
       ]
   },
   {
       id: 9,
       resposta: "Violino",
-      tipo: "Coisa (Objeto)",
+      tipo: "Coisa",
       dicas: [
-          "É um instrumento de cordas.",
-          "É tocado com um arco.",
-          "Possui quatro cordas.",
-          "É utilizado em diversos gêneros musicais.",
-          "É um dos instrumentos mais populares da família das cordas.",
-          "É comumente usado em orquestras.",
-          "A forma moderna do violino foi desenvolvida na Itália.",
+          "Sou um instrumento de cordas.",
+          "Sou tocado com um arco.",
+          "Possuo quatro cordas.",
+          "Sou utilizado em diversos gêneros musicais.",
+          "Sou um dos instrumentos mais populares da família das cordas.",
+          "Sou comumente usado em orquestras.",
+          "A minha forma moderna foi desenvolvida na Itália.",
           "Requer habilidade e prática para ser tocado proficientemente.",
-          "Os violinos são construídos com madeira, como o abeto e o bordo.",
-          "O som do violino é amplificado pela caixa de ressonância."
+          "Sou construído com madeira, como o abeto e o bordo.",
+          "O meu som é amplificado pela caixa de ressonância."
       ]
   },
   {
@@ -154,16 +154,16 @@ const quiz = [
       resposta: "Leonardo da Vinci",
       tipo: "Pessoa",
       dicas: [
-          "Foi um artista, cientista e inventor renascentista.",
-          "Pintou a famosa obra 'Mona Lisa'.",
-          "Também é conhecido por 'A Última Ceia'.",
-          "Era um gênio polímata, ou seja, tinha conhecimentos em diversas áreas.",
-          "Suas invenções incluem projetos de máquinas voadoras.",
-          "Nasceu na cidade de Vinci, na Itália.",
-          "É considerado um dos maiores pintores de todos os tempos.",
-          "Seu quaderno de esboços, chamado de Códice, contém diversas anotações e desenhos.",
-          "Foi um dos pioneiros do estilo artístico conhecido como sfumato.",
-          "Viveu durante o período conhecido como Renascimento."
+          "Fui um artista, cientista e inventor renascentista.",
+          "Pintei a famosa obra 'Mona Lisa'.",
+          "Também sou conhecido por 'A Última Ceia'.",
+          "Fui um gênio polímata, ou seja, tinha conhecimentos em diversas áreas.",
+          "Minhas invenções incluem projetos de máquinas voadoras.",
+          "Nasci na cidade de Vinci, na Itália.",
+          "Sou considerado um dos maiores pintores de todos os tempos.",
+          "Meu caderno de esboços, chamado de Códice, contém diversas anotações e desenhos.",
+          "Fui um dos pioneiros do estilo artístico conhecido como sfumato.",
+          "Vivi durante o período conhecido como Renascimento."
       ]
   },
   {
@@ -171,16 +171,16 @@ const quiz = [
       resposta: "Machu Picchu",
       tipo: "Lugar",
       dicas: [
-          "É uma antiga cidade inca.",
-          "Está localizada no Peru, na região dos Andes.",
-          "Foi construída no século XV.",
-          "É considerada Patrimônio Mundial pela UNESCO.",
-          "Fica em uma área montanhosa e possui uma vista deslumbrante.",
-          "É conhecida como a Cidade Perdida dos Incas.",
-          "Acredita-se que tenha sido um importante centro político e religioso.",
-          "Foi redescoberta pelo explorador Hiram Bingham em 1911.",
-          "As construções são feitas de pedra e têm uma precisão impressionante.",
-          "É um dos destinos turísticos mais populares da América do Sul."
+          "Sou uma antiga cidade inca.",
+          "Estou localizada no Peru, na região dos Andes.",
+          "Fui construída no século XV.",
+          "Sou considerada Patrimônio Mundial pela UNESCO.",
+          "Fico em uma área montanhosa e possui uma vista deslumbrante.",
+          "Sou conhecida como a Cidade Perdida dos Incas.",
+          "Acredita-se que fui um importante centro político e religioso.",
+          "Fui redescoberta pelo explorador Hiram Bingham em 1911.",
+          "As minhas construções são feitas de pedra e têm uma precisão impressionante.",
+          "Sou um dos destinos turísticos mais populares da América do Sul."
       ]
   },
   {
@@ -188,8 +188,8 @@ const quiz = [
       resposta: "1955",
       tipo: "Ano",
       dicas: [
-          "É um ano do século XX.",
-          "Ficou conhecido pelo início da era espacial.",
+          "Sou um ano do século XX.",
+          "Fiquei conhecido pelo início da era espacial.",
           "Albert Einstein faleceu neste ano.",
           "A Disneylândia, o primeiro parque temático da Disney, foi inaugurada.",
           "O Pacto de Varsóvia foi assinado, estabelecendo a aliança militar comunista.",
@@ -203,18 +203,18 @@ const quiz = [
   {
       id: 13,
       resposta: "Guitarra",
-      tipo: "Coisa (Objeto)",
+      tipo: "Coisa",
       dicas: [
-          "É um instrumento musical de cordas.",
-          "É tocado com os dedos ou com uma palheta.",
-          "É um dos instrumentos mais populares no rock e no pop.",
-          "Tem um corpo oco ou semiacústico.",
-          "Possui seis cordas, mas há variações com mais ou menos cordas.",
-          "Os principais tipos são guitarra elétrica e guitarra acústica.",
-          "Foi popularizada por músicos como Jimi Hendrix, Eric Clapton e Jimmy Page.",
-          "As cordas são feitas de aço ou náilon.",
-          "Pode ser usada para tocar acordes ou fazer solos.",
-          "A afinação padrão das cordas é EADGBE."
+          "Sou um instrumento musical de cordas.",
+          "Sou tocado com os dedos ou com uma palheta.",
+          "Sou um dos instrumentos mais populares no rock e no pop.",
+          "Tenho um corpo oco ou semiacústico.",
+          "Possuo seis cordas, mas há variações com mais ou menos cordas.",
+          "Os principais tipos de mim são elétrica e acústica.",
+          "Fui popularizada por músicos como Jimi Hendrix, Eric Clapton e Jimmy Page.",
+          "As minhas cordas são feitas de aço ou náilon.",
+          "Posso ser usada para tocar acordes ou fazer solos.",
+          "A minha afinação padrão das cordas é E, A, D, G, B, E."
       ]
   },
   {
@@ -222,33 +222,33 @@ const quiz = [
       resposta: "Pablo Picasso",
       tipo: "Pessoa",
       dicas: [
-          "Foi um famoso pintor e escultor espanhol.",
-          "É um dos artistas mais influentes do século XX.",
-          "Co-fundador do movimento cubista.",
-          "Pintou obras famosas como 'Guernica' e 'Les Demoiselles d'Avignon'.",
-          "Experimentou diversos estilos e técnicas ao longo de sua carreira.",
-          "Nasceu em Málaga, na Espanha.",
-          "Foi um dos pioneiros da arte moderna.",
-          "Teve uma produção artística prolífica, com mais de 50.000 obras.",
-          "É conhecido por sua criatividade e expressividade em suas obras.",
-          "Sua arte teve um grande impacto no mundo da arte e na cultura contemporânea."
+          "Fui um famoso pintor e escultor espanhol.",
+          "Sou um dos artistas mais influentes do século XX.",
+          "Fui co-fundador do movimento cubista.",
+          "Pintei obras famosas como 'Guernica' e 'Les Demoiselles d'Avignon'.",
+          "Experimentei diversos estilos e técnicas ao longo de sua carreira.",
+          "Nasci em Málaga, na Espanha.",
+          "Fui um dos pioneiros da arte moderna.",
+          "Tive uma produção artística prolífica, com mais de 50.000 obras.",
+          "Sou conhecido por sua criatividade e expressividade em minhas obras.",
+          "Minha arte teve um grande impacto no mundo da arte e na cultura contemporânea."
       ]
   },
   {
       id: 15,
       resposta: "Telescópio",
-      tipo: "Coisa (Objeto)",
+      tipo: "Coisa",
       dicas: [
-          "É um instrumento óptico utilizado para observar objetos distantes.",
-          "É usado principalmente para estudar o espaço e as estrelas.",
-          "Amplia a imagem dos objetos celestes.",
-          "Pode ser usado tanto para observações astronômicas quanto terrestres.",
-          "Existem diferentes tipos de telescópios, como refratores e refletores.",
-          "O telescópio espacial Hubble é um dos mais conhecidos.",
-          "Foi inventado no início do século XVII.",
-          "Permite aos astrônomos estudar a composição e os movimentos dos corpos celestes.",
-          "Os telescópios modernos podem captar sinais de luz e radiação não visível.",
-          "A qualidade de um telescópio é medida por sua abertura e poder de resolução."
+          "Sou um instrumento óptico utilizado para observar objetos distantes.",
+          "Sou usado principalmente para estudar o espaço e as estrelas.",
+          "Amplio a imagem dos objetos celestes.",
+          "Posso ser usado tanto para observações astronômicas quanto terrestres.",
+          "Existem diferentes tipos de mim, como refratores e refletores.",
+          "O Hubble é um dos mais conhecidos de mim.",
+          "Fui inventado no início do século XVII.",
+          "Permito aos astrônomos estudar a composição e os movimentos dos corpos celestes.",
+          "Os mais modernos de mim podem captar sinais de luz e radiação não visível.",
+          "A minha qualidade é medida por sua abertura e poder de resolução."
       ]
   },
   {
@@ -256,16 +256,16 @@ const quiz = [
       resposta: "Londres",
       tipo: "Lugar",
       dicas: [
-          "É a capital da Inglaterra e do Reino Unido.",
-          "É uma das cidades mais populosas da Europa.",
-          "Tem uma rica história que remonta aos tempos romanos.",
-          "É conhecida por seus marcos icônicos, como o Big Ben e o Palácio de Buckingham.",
-          "O rio Tâmisa atravessa a cidade.",
-          "É um importante centro cultural e financeiro.",
-          "A cidade sediou os Jogos Olímpicos de Verão em 2012.",
-          "Possui uma extensa rede de transporte público, incluindo o metrô conhecido como 'Tube'.",
-          "É lar de renomadas instituições culturais, como o Museu Britânico e a National Gallery.",
-          "A cidade é famosa por seus teatros e pelo famoso distrito de compras em Oxford Street."
+          "Sou a capital da Inglaterra e do Reino Unido.",
+          "Sou uma das cidades mais populosas da Europa.",
+          "Tenho uma rica história que remonta aos tempos romanos.",
+          "Sou conhecida por seus marcos icônicos, como o Big Ben e o Palácio de Buckingham.",
+          "O rio Tâmisa me atravessa.",
+          "Sou um importante centro cultural e financeiro.",
+          "Sediei os Jogos Olímpicos de Verão em 2012.",
+          "Posso uma extensa rede de transporte público, incluindo o metrô conhecido como 'Tube'.",
+          "Sou lar de renomadas instituições culturais, como o Museu Britânico e a National Gallery.",
+          "Sou famosa por meus teatros e pelo famoso distrito de compras em Oxford Street."
       ]
   },
   {
@@ -273,14 +273,14 @@ const quiz = [
       resposta: "1920",
       tipo: "Ano",
       dicas: [
-          "É um ano do século XX.",
-          "Ficou conhecido como a 'Era do Jazz'.",
-          "Marcou o período de grande prosperidade nos Estados Unidos.",
-          "Foi a época da Proibição, quando a venda de bebidas alcoólicas foi proibida.",
+          "Sou um ano do século XX.",
+          "Fiquei conhecido como a 'Era do Jazz'.",
+          "Marquei o período de grande prosperidade nos Estados Unidos.",
+          "Fui a época da Proibição, quando a venda de bebidas alcoólicas foi proibida.",
           "A moda das flappers, mulheres que desafiavam as convenções sociais, estava em alta.",
           "O rádio se tornou um meio de comunicação popular.",
-          "Foi o início do período conhecido como 'Os Anos Loucos'.",
-          "Teve um grande crescimento econômico e industrial.",
+          "Fui o início do período conhecido como 'Os Anos Loucos'.",
+          "Tive um grande crescimento econômico e industrial.",
           "A cultura popular foi influenciada pelo cinema e pela música.",
           "A arte e a literatura também passaram por transformações significativas."
       ]
@@ -288,18 +288,18 @@ const quiz = [
   {
       id: 18,
       resposta: "Violoncelo",
-      tipo: "Coisa (Objeto)",
+      tipo: "Coisa",
       dicas: [
-          "É um instrumento musical de cordas.",
-          "É maior que o violino e o viola.",
-          "É tocado apoiado entre as pernas e com um arco.",
-          "Tem quatro cordas afinadas em quintas.",
-          "É parte da família das cordas da orquestra.",
-          "Produz um som grave e profundo.",
-          "É usado tanto em música clássica quanto em outros gêneros musicais.",
-          "Requer habilidade e prática para ser tocado.",
-          "A caixa de ressonância é feita de madeira, como o abeto e o bordo.",
-          "O violoncelo é considerado um dos instrumentos mais expressivos e versáteis."
+          "Sou maior que o violino e o viola.",
+          "Sou tocado apoiado entre as pernas e com um arco.",
+          "Sou um instrumento musical de cordas.",
+          "Tenho quatro cordas afinadas em quintas.",
+          "Sou parte da família das cordas da orquestra.",
+          "Produzo um som grave e profundo.",
+          "Sou usado tanto em música clássica quanto em outros gêneros musicais.",
+          "Para me tocar, requer habilidade e prática.",
+          "A minha caixa de ressonância é feita de madeira, como o abeto e o bordo.",
+          "Sou considerado um dos instrumentos mais expressivos e versáteis."
       ]
   },
   {
@@ -307,33 +307,33 @@ const quiz = [
       resposta: "Cleópatra",
       tipo: "Pessoa",
       dicas: [
-          "Foi a última rainha do Egito.",
-          "É conhecida por sua beleza e poder.",
-          "Teve relacionamentos com Júlio César e Marco Antônio.",
-          "Desenvolveu uma aliança política com os romanos.",
-          "Seu nome significa 'glória do pai'.",
-          "Foi uma líder influente no Antigo Egito.",
-          "É uma das figuras históricas mais famosas e emblemáticas.",
-          "Desempenhou um papel importante na política e na cultura do Egito.",
-          "Foi a última governante da dinastia ptolomaica.",
-          "Sua morte é associada à serpente venenosa conhecida como áspide."
+          "Fui a última rainha do Egito.",
+          "Fui conhecida por sua beleza e poder.",
+          "Tive relacionamentos com Júlio César e Marco Antônio.",
+          "Desenvolvi uma aliança política com os romanos.",
+          "Meu nome significa 'glória do pai'.",
+          "Fui uma líder influente no Antigo Egito.",
+          "Fui uma das figuras históricas mais famosas e emblemáticas.",
+          "Desempenhei um papel importante na política e na cultura do Egito.",
+          "Fui a última governante da dinastia ptolomaica.",
+          "Minha morte é associada à serpente venenosa conhecida como áspide."
       ]
   },
   {
       id: 20,
       resposta: "Baleia",
-      tipo: "Coisa (Animal)",
+      tipo: "Coisa",
       dicas: [
-          "É um mamífero marinho.",
-          "É conhecida por ser um dos maiores animais do mundo.",
-          "Existem diferentes espécies de baleias, como a baleia-azul e a baleia-jubarte.",
-          "Possui um corpo alongado e hidrodinâmico.",
-          "Alimenta-se principalmente de pequenos organismos, como plâncton e krill.",
-          "Faz migrações de longa distância todos os anos.",
-          "Pode emitir sons para se comunicar com outros membros do grupo.",
-          "É um animal ameaçado de extinção devido à caça indiscriminada.",
-          "É um símbolo da conservação dos oceanos e da biodiversidade marinha.",
-          "A cauda da baleia, conhecida como nadadeira caudal, é usada para propulsionar o animal na água."
+          "Sou um mamífero marinho.",
+          "Sou conhecida por ser um dos maiores animais do mundo.",
+          "Existem diferentes espécies de mim, como a azul e a jubarte.",
+          "Possuo um corpo alongado e hidrodinâmico.",
+          "Alimento-me principalmente de pequenos organismos, como plâncton e krill.",
+          "Faço migrações de longa distância todos os anos.",
+          "Posso emitir sons para se comunicar com outros membros do grupo.",
+          "Sou um animal ameaçado de extinção devido à caça indiscriminada.",
+          "Sou um símbolo da conservação dos oceanos e da biodiversidade marinha.",
+          "A minha cauda, conhecida como nadadeira caudal, é usada para me propulsionar na água."
       ]
   },
   {
@@ -341,16 +341,16 @@ const quiz = [
       resposta: "Marte",
       tipo: "Lugar",
       dicas: [
-          "É o quarto planeta a partir do Sol.",
-          "É conhecido como o 'Planeta Vermelho' devido à sua coloração.",
-          "É o segundo menor planeta do sistema solar.",
-          "Possui uma atmosfera fina composta principalmente de dióxido de carbono.",
-          "É o único planeta além da Terra onde já foram encontradas evidências de água líquida.",
-          "É alvo de diversas missões espaciais em busca de sinais de vida.",
-          "Possui vulcões e cânions gigantescos, como o Monte Olimpo e o Vale Marineris.",
-          "Seus polos apresentam calotas de gelo compostas principalmente de água congelada.",
-          "As missões Viking, Pathfinder, Spirit, Opportunity e Curiosity já exploraram sua superfície.",
-          "A possibilidade de colonização humana em Marte tem sido objeto de estudo e especulação."
+          "Sou o quarto planeta a partir do Sol.",
+          "Sou conhecido como o 'Planeta Vermelho' devido à minha coloração.",
+          "Sou o segundo menor planeta do sistema solar.",
+          "Possuo uma atmosfera fina composta principalmente de dióxido de carbono.",
+          "Sou o único planeta além da Terra onde já foram encontradas evidências de água líquida.",
+          "Sou alvo de diversas missões espaciais em busca de sinais de vida.",
+          "Possuo vulcões e cânions gigantescos, como o Monte Olimpo e o Vale Marineris.",
+          "Meus polos apresentam calotas de gelo compostas principalmente de água congelada.",
+          "As missões Viking, Pathfinder, Spirit, Opportunity e Curiosity já exploraram minha superfície.",
+          "A possibilidade de colonização humana em mim tem sido objeto de estudo e especulação."
       ]
   },
   {
@@ -358,33 +358,33 @@ const quiz = [
       resposta: "Jane Austen",
       tipo: "Pessoa",
       dicas: [
-          "Foi uma famosa escritora inglesa.",
-          "É conhecida por seus romances do século XIX.",
-          "Seus livros abordam temas como amor, casamento e classes sociais.",
-          "Obras famosas incluem 'Orgulho e Preconceito' e 'Razão e Sensibilidade'.",
-          "É considerada uma das maiores escritoras da literatura inglesa.",
-          "Seus livros foram publicados anonimamente durante sua vida.",
-          "Os romances de Austen foram adaptados para o cinema e a televisão.",
-          "Ela retratou com habilidade a sociedade e as convenções da época.",
-          "Suas obras continuam populares e influentes até os dias de hoje.",
-          "Nasceu em Hampshire, na Inglaterra, em 1775."
+          "Fui uma famosa escritora inglesa.",
+          "Sou conhecida por seus romances do século XIX.",
+          "Meus livros abordam temas como amor, casamento e classes sociais.",
+          "Minhas obras famosas incluem 'Orgulho e Preconceito' e 'Razão e Sensibilidade'.",
+          "Sou considerada uma das maiores escritoras da literatura inglesa.",
+          "Meus livros foram publicados anonimamente durante minha vida.",
+          "Os meus romances foram adaptados para o cinema e a televisão.",
+          "Retratei com habilidade a sociedade e as convenções da época.",
+          "Minhas obras continuam populares e influentes até os dias de hoje.",
+          "Nasci em Hampshire, na Inglaterra, em 1775."
       ]
   },
   {
       id: 23,
       resposta: "Fotografia",
-      tipo: "Coisa (Objeto)",
+      tipo: "Coisa",
       dicas: [
-          "É uma técnica de capturar imagens usando luz.",
-          "É uma forma de arte e expressão visual.",
-          "Foi inventada no século XIX.",
-          "Envolve o uso de uma câmera para registrar momentos e cenas.",
-          "A palavra 'fotografia' significa 'escrita com luz'.",
-          "Existem diferentes tipos de fotografia, como paisagem, retrato e fotografia de moda.",
-          "A evolução da tecnologia trouxe a fotografia digital e o surgimento das câmeras de celular.",
-          "Fotógrafos famosos incluem Ansel Adams, Annie Leibovitz e Henri Cartier-Bresson.",
-          "As fotografias podem ser impressas, exibidas digitalmente ou publicadas em livros e revistas.",
-          "A fotografia permite capturar momentos únicos e preservar memórias de forma duradoura."
+          "Sou uma técnica de capturar imagens usando luz.",
+          "Sou uma forma de arte e expressão visual.",
+          "Fui inventada no século XIX.",
+          "Para me fazer envolve o uso de uma câmera para registrar momentos e cenas.",
+          "O meu nome significa 'escrita com luz'.",
+          "Existem diferentes tipos de mim, como paisagem, retrato e fotografia de moda.",
+          "A evolução da tecnologia trouxe a versão digital.",
+          "Ansel Adams, Annie Leibovitz e Henri Cartier-Bresson, são especialistas em mim.",
+          "Posso ser impressa, exibida digitalmente ou publicada em livros e revistas.",
+          "Permito capturar momentos únicos e preservar memórias de forma duradoura."
       ]
   },
   {
@@ -392,16 +392,16 @@ const quiz = [
       resposta: "Egito",
       tipo: "Lugar",
       dicas: [
-          "É um país localizado no nordeste da África.",
-          "Possui uma rica história e uma das civilizações mais antigas do mundo.",
-          "É conhecido pelos monumentos e pelas pirâmides do Antigo Egito.",
-          "O rio Nilo atravessa o país.",
-          "Cairo é a capital do Egito.",
-          "A Esfinge e as pirâmides de Gizé são atrações turísticas famosas.",
-          "O Antigo Egito foi governado por faraós.",
-          "A cultura egípcia inclui mitologia, arte, arquitetura e escrita hieroglífica.",
-          "O Egito é lar de importantes sítios arqueológicos, como o Vale dos Reis e o Templo de Luxor.",
-          "O turismo desempenha um papel importante na economia do país."
+          "Sou um país localizado no nordeste da África.",
+          "Possuo uma rica história e uma das civilizações mais antigas do mundo.",
+          "Sou conhecido pelos monumentos e pelas pirâmides.",
+          "O rio Nilo me atravessa.",
+          "Cairo é a minha capital.",
+          "A Esfinge e as pirâmides de Gizé são minhas atrações turísticas famosas.",
+          "Fui governado por faraós.",
+          "A minha cultura inclui mitologia, arte, arquitetura e escrita hieroglífica.",
+          "Sou lar de importantes sítios arqueológicos, como o Vale dos Reis e o Templo de Luxor.",
+          "O turismo desempenha um papel importante para minha economia."
       ]
   },
   {
@@ -409,12 +409,12 @@ const quiz = [
       resposta: "1939",
       tipo: "Ano",
       dicas: [
-          "É um ano do século XX.",
-          "Ficou marcado pelo início da Segunda Guerra Mundial.",
+          "Fiquei marcado pelo início da Segunda Guerra Mundial.",
           "A Alemanha nazista invadiu a Polônia, dando início ao conflito.",
           "O Reino Unido e a França declararam guerra à Alemanha.",
           "Foi o ano em que ocorreu o início da evacuação de crianças britânicas para áreas rurais durante a guerra.",
           "A máquina de venda automática de café foi patenteada neste ano.",
+          "Sou um ano do século XX.",
           "O filme 'O Mágico de Oz' foi lançado.",
           "A escritora Virginia Woolf publicou a obra 'As Ondas'.",
           "A cidade de Barcelona foi bombardeada durante a Guerra Civil Espanhola.",

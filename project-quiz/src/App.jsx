@@ -79,6 +79,7 @@ export default function App() {
           setWin={setWin}
           points={points}
           setPoints={setPoints}
+          generateRandomNumber={generateRandomNumber}
         />
       </div>
     </>
