@@ -24,6 +24,7 @@ export default function App() {
 
   function generateRandomNumber(quiz) {
     setLifePoint(8)
+    setPoints(0)
     setAbilityBtn(false)
     setVisibleTips([])
     setWrong('')

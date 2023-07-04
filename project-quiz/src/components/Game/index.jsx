@@ -63,7 +63,7 @@ export default function Game({ resposta,
         }
     }
     useEffect(() => {
-        if (points >= 50) {
+        if (points >= 5) {
             setWin(true);
             setAbilityBtn(false)
             return
@@ -159,9 +159,9 @@ export default function Game({ resposta,
                             const disabled = !startGame
                             return <button
                                 key={index}
-                                className={`btnTips ${disabledButtons[index] || disabled || right ? 'gray' : ''}`}
+                                className={`btnTips ${disabledButtons[index] || disabled || right || win ? 'gray' : ''}`}
                                 onClick={() => handleTip(index)}
-                                disabled={disabledButtons[index] || disabled || right}
+                                disabled={disabledButtons[index] || disabled || right || win}
                             >{`Dica ${index + 1}`}</button>
                         })}
                     </div>
