@@ -63,7 +63,7 @@ export default function Game({ resposta,
         }
     }
     useEffect(() => {
-        if (points >= 5) {
+        if (points >= 50) {
             setWin(true);
             setAbilityBtn(false)
             return
