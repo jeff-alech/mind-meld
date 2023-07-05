@@ -37,9 +37,9 @@ Aqui estão algumas capturas de tela do jogo Mind Meld em ação:
 |--------------|--------------|
 | ![Screenshot 1](https://i.imgur.com/8Rmq6XL.png) | ![Screenshot 2](https://i.imgur.com/9I8BeZP.png) |
 
-| Screenshot 7 | |
+| Screenshot 7 | Screenshot 8 |
 |--------------|--------------|
-| ![Screenshot 1](https://i.imgur.com/aN9JevV.png) | |
+| ![Screenshot 1](https://i.imgur.com/aN9JevV.png) | ![Screenshot 1](https://i.imgur.com/VGemfsL.png) |
 
 ## Contribuição
 
