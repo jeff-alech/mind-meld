@@ -5,6 +5,7 @@
     --disable-color: #939393;
     --card: #f5f5f5;
     --shadow: rgba(173, 174, 174, 0.6);
+    --background-modal:  rgba(37, 37, 37, 0.7);
     --lines: #c0c0c0;
     --text: #252525;
 }
@@ -199,4 +200,18 @@
 .wrong{
     font-size: 32px;
     color: var(--btn);
+}
+.help{
+    display: flex;
+    align-items: end;
+    height: 100vh;
+}
+.help-icon{
+    margin-bottom: 20px;
+   
+    width: 35px;
+    cursor: pointer;
+}
+.help-icon:hover{
+    transform: scale(1.1);
 }

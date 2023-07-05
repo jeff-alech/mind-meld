@@ -8,7 +8,7 @@ import logo from '../../assets/interrogacao.png';
 import reload from '../../assets/reload.png'
 import quiz from '../../../tips';
 
-export default function Bar({ setStartGame, startGame, generateRandomNumber, abilityBtn, setEndGame, endGame, lifePoint, points, setWin, win }) {
+export default function Bar({ setStartGame, startGame, generateRandomNumber, setEndGame, endGame, lifePoint, points, setWin, setPoints }) {
   return (
     <>
       <div className='container-bar'>
@@ -29,6 +29,7 @@ export default function Bar({ setStartGame, startGame, generateRandomNumber, abi
               setStartGame(true);
               setEndGame(false)
               setWin(false)
+              setPoints(0)
             }}
           >
             {startGame ? <img className='realodBtn' src={reload} alt="reload icon"/> : 'Start' }

@@ -8,6 +8,7 @@ import quiz from '../../../tips';
 import send from '../../assets/Vector.png';
 import gameOver from '../../assets/gameOver.png';
 import youWin from '../../assets/youWin.png';
+import help from '../../assets/help.png'
 
 export default function Game({ resposta,
     dicas,
@@ -27,7 +28,8 @@ export default function Game({ resposta,
     lifePoint, setLifePoint,
     win, setWin,
     points, setPoints,
-    generateRandomNumber
+    generateRandomNumber,
+    setActiveModal
 }) {
     const dicasSize = quiz[0].dicas;
     const [answers, setAnswers] = useState('');
@@ -159,9 +161,9 @@ export default function Game({ resposta,
                             const disabled = !startGame
                             return <button
                                 key={index}
-                                className={`btnTips ${disabledButtons[index] || disabled || right || win ? 'gray' : ''}`}
+                                className={`btnTips ${disabledButtons[index] || disabled || right || win || endGame? 'gray' : ''}`}
                                 onClick={() => handleTip(index)}
-                                disabled={disabledButtons[index] || disabled || right || win}
+                                disabled={disabledButtons[index] || disabled || right || win || endGame}
                             >{`Dica ${index + 1}`}</button>
                         })}
                     </div>
@@ -169,8 +171,9 @@ export default function Game({ resposta,
                 <div className='boxCard'>
                     {win ? <img className='gameOver' src={youWin} alt='You Win' /> : renderContent()}
                 </div>
-
-
+                <div className='help'>
+                    <img onClick={() => setActiveModal(true)} className="help-icon" src={help} alt="Help Icon" />
+                </div>
             </div>
         </>
     );

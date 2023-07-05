@@ -7,6 +7,7 @@ import './App.css'
 import Game from './components/Game/index'
 import Bar from './components/Bar'
 import quiz from '../tips'
+import Modal from '../src/components/Modal'
 
 export default function App() {
   const newRandomNumber = Math.floor(Math.random() * quiz.length);
@@ -19,12 +20,12 @@ export default function App() {
   const [visibleTips, setVisibleTips] = useState([]);
   const [lifePoint, setLifePoint] = useState(8);
   const [points, setPoints] = useState(0);
+  const [activeModal, setActiveModal] = useState(false)
   const [wrong, setWrong] = useState('');
   const [disabledButtons, setDisabledButtons] = useState(Array(quiz.length).fill(false));
 
   function generateRandomNumber(quiz) {
     setLifePoint(8)
-    setPoints(0)
     setAbilityBtn(false)
     setVisibleTips([])
     setWrong('')
@@ -53,6 +54,7 @@ export default function App() {
           endGame={endGame}
           lifePoint={lifePoint}
           points={points}
+          setPoints={setPoints}
 
         />
         <Game
@@ -81,7 +83,9 @@ export default function App() {
           points={points}
           setPoints={setPoints}
           generateRandomNumber={generateRandomNumber}
+          setActiveModal={setActiveModal}
         />
+        {activeModal && <Modal setActiveModal={setActiveModal}/> }
       </div>
     </>
   )
