@@ -107,21 +107,21 @@ export default function Game({ resposta,
 
                     <div className='card'>
                         <div className='answerCard title answer'>
-                            {right && <h2 className='title'>{resposta}</h2>}
+                            {right && <h2 className='title h2-title'>{resposta}</h2>}
                         </div>
                         <div className='answerCard tipo'>
                             <span className='title'>{`Eu sou uma ${tipo}`}</span>
                         </div>
 
                         <div className='box-dicas'>
-                            <div className='answerCard dicas'>
+                            <div className='answerCard dicas margin0'>
                                 {dicas.slice(0, 5).map((item, index) => (
                                     <ul key={index} className='title list'>
                                         {visibleTips[index] && <li>{item}</li>}
                                     </ul>
                                 ))}
                             </div>
-                            <div className='answerCard dicas'>
+                            <div className='answerCard dicas margin0'>
                                 {dicas.slice(5, 10).map((item, index) => (
                                     <ul key={index} className='title list'>
                                         {visibleTips[index + 5] && <li>{item}</li>}

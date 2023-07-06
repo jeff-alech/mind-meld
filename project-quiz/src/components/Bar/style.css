@@ -40,3 +40,38 @@
 .realodBtn{
     height: 2.5vh;
 }
+
+
+
+@media (max-width: 700px){
+    .container-bar{
+        flex-direction: row;
+        width: 100%;
+        height: 8vh;
+    } 
+    .logo{
+        margin-top: 0;
+        width: 80px;
+        margin-left: 10px; 
+    }
+    .btnLife{
+        display: flex;
+        flex-direction: row;
+        justify-content: none;
+        width: 150px;
+    }
+    .life, .points{
+        font-size: 1rem;
+    }
+    .life img, .points img{
+        width: 20px;
+    }
+    .btnStart{
+        height: 25px;
+        width: 80px;
+        margin-right: 10px;
+    }
+    .realodBtn{
+        height: 15px;
+    }
+}
