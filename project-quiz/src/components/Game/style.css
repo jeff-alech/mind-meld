@@ -216,7 +216,7 @@
     transform: scale(1.1);
 }
 
-@media (max-width: 700px){
+@media (max-width: 880px){
     .container-game{
         width: 100%;
         border-radius: 60px 0 0 60px;
@@ -250,9 +250,8 @@
         height: 78%;
     }
     .answer{
-        margin-top: 10px;
-        width: 80%;
-        
+        margin-top: 30px;
+        width: 80%;       
     }
     .tipo{
         width: 80%;
@@ -280,7 +279,7 @@
         margin-top: -30px ;
     }
     .list li{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     .inputAnswer{
         width: 90%;
@@ -295,4 +294,49 @@
         margin-left: 0.3rem;
         margin-top: 51rem;
     }
+}
+
+@media (max-width: 400px){
+    .div-wrong{
+        margin-top: 5px;
+        width: 60vw;
+        height: 2.5rem;
+    }
+    .wrong{
+        margin-top: -50px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .margin0{
+        margin-top: -15px ;
+    }
+    .btnBox{
+        gap: 20px;
+    }
+    .btnTips{
+        width: 90%;
+        height: 25px;
+        font-size: 0.6rem;
+    }
+    .card{
+        margin-top: -15px;
+        height: 75%;
+    }
+    .list{
+        padding: 4px;
+    }
+    .help{
+        width: 2.8rem;
+        height: 40px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 200px;
+        margin-left: -1px;
+    }
+    .help-icon{
+        width: 28px;
+    }
+
 }
