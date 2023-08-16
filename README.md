@@ -12,7 +12,7 @@ Para executar o jogo em sua máquina local, siga estas etapas:
 
 1. Certifique-se de ter o Node.js instalado em seu sistema. Você pode baixá-lo em: [https://nodejs.org](https://nodejs.org)
 
-2. Clone este repositório para o diretório de sua escolha usando o seguinte comando no terminal: git clone https://github.com/seu-usuario/mind-meld.git
+2. Clone este repositório para o diretório de sua escolha usando o seguinte comando no terminal: git clone [https://github.com/jeff-alech/mind-meld]
 
 3. Navegue até o diretório do projeto: cd mind-meld
 
